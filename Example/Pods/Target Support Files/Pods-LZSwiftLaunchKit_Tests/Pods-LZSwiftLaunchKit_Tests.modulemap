@@ -1,0 +1,6 @@
+framework module Pods_LZSwiftLaunchKit_Tests {
+  umbrella header "Pods-LZSwiftLaunchKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		82072ECDA3ECD8A29BA297D4 /* Pods_LZSwiftLaunchKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742921A2903E63A0E9BAB302 /* Pods_LZSwiftLaunchKit_Tests.framework */; };
+		A56D72362420EF42004C9178 /* LaunchModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56D72352420EF42004C9178 /* LaunchModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17D7AEAC5D68E1413EB59212 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1B047D6712D5516F6847760E /* LZSwiftLaunchKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LZSwiftLaunchKit.podspec; path = ../LZSwiftLaunchKit.podspec; sourceTree = "<group>"; };
+		17D7AEAC5D68E1413EB59212 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1B047D6712D5516F6847760E /* LZSwiftLaunchKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LZSwiftLaunchKit.podspec; path = ../LZSwiftLaunchKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2F8749A0159E0F5CF27E50DB /* Pods-LZSwiftLaunchKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZSwiftLaunchKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-LZSwiftLaunchKit_Tests/Pods-LZSwiftLaunchKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E1047B786930FC862E1C90A /* Pods-LZSwiftLaunchKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZSwiftLaunchKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LZSwiftLaunchKit_Tests/Pods-LZSwiftLaunchKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LZSwiftLaunchKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZSwiftLaunchKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +44,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		742921A2903E63A0E9BAB302 /* Pods_LZSwiftLaunchKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZSwiftLaunchKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92288BCF5DFFBDF6A0322BCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		92288BCF5DFFBDF6A0322BCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		98B8CDC4ABB00D574FF29F67 /* Pods-LZSwiftLaunchKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZSwiftLaunchKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LZSwiftLaunchKit_Example/Pods-LZSwiftLaunchKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		99038F1B28288F7F14259897 /* Pods-LZSwiftLaunchKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZSwiftLaunchKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-LZSwiftLaunchKit_Example/Pods-LZSwiftLaunchKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9B2A8123D35587247D87000F /* Pods_LZSwiftLaunchKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZSwiftLaunchKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56D72352420EF42004C9178 /* LaunchModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,6 @@
 				4E1047B786930FC862E1C90A /* Pods-LZSwiftLaunchKit_Tests.debug.xcconfig */,
 				2F8749A0159E0F5CF27E50DB /* Pods-LZSwiftLaunchKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -115,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				A56D72352420EF42004C9178 /* LaunchModule.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -291,10 +294,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LZSwiftLaunchKit_Example/Pods-LZSwiftLaunchKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LZSwiftAppDelegateKit/LZSwiftAppDelegateKit.framework",
 				"${BUILT_PRODUCTS_DIR}/LZSwiftLaunchKit/LZSwiftLaunchKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LZSwiftAppDelegateKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LZSwiftLaunchKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +338,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				A56D72362420EF42004C9178 /* LaunchModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

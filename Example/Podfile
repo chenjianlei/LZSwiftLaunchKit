@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'LZSwiftLaunchKit_Example' do
   pod 'LZSwiftLaunchKit', :path => '../'
+  pod 'LZSwiftAppDelegateKit'
 
   target 'LZSwiftLaunchKit_Tests' do
     inherit! :search_paths

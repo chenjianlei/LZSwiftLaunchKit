@@ -1,0 +1,23 @@
+PODS:
+  - LZSwiftAppDelegateKit (0.0.1)
+  - LZSwiftLaunchKit (0.1.0)
+
+DEPENDENCIES:
+  - LZSwiftAppDelegateKit
+  - LZSwiftLaunchKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - LZSwiftAppDelegateKit
+
+EXTERNAL SOURCES:
+  LZSwiftLaunchKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LZSwiftAppDelegateKit: 5564d2f1ce3b9012de9a2041f3e2a4c8923bd2a5
+  LZSwiftLaunchKit: 086b7db0a19bc73452746df07cb613640661bb84
+
+PODFILE CHECKSUM: 934f4141bd3fd1f43122a0e7b56cca8ba03ab21b
+
+COCOAPODS: 1.8.4

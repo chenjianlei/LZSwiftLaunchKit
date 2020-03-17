@@ -1,0 +1,6 @@
+framework module LZSwiftLaunchKit {
+  umbrella header "LZSwiftLaunchKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
